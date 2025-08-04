@@ -10,14 +10,17 @@ body {
   background: linear-gradient(to bottom, #f9f9f9, #e0e0e0);
   color: #333;
   margin: 0;
-  padding: 0;
+  padding: 0 1rem; /* Aggiunge spazio ai lati */
   line-height: 1.6;
   font-size: 16px;
   min-height: 100vh;
+
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-start;
+
+  scroll-behavior: smooth;
   transition:
     background 0.3s ease,
     color 0.3s ease;
